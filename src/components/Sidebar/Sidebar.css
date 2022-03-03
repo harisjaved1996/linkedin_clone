@@ -1,0 +1,76 @@
+div.avatar-cover img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+div.user-information {
+  border: 1px solid #ddd6d6;
+  background-color: white;
+  border-radius: 10px;
+}
+
+div.sidebar-container {
+  width: 20%;
+}
+
+.avatar-name {
+  text-align: center;
+}
+
+div.avatar-user {
+  text-align: center;
+}
+
+img.avatar-user-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div.avatar-cotnainer {
+  position: relative;
+  bottom: 25px;
+}
+
+div.avatar-email,
+.avatar-email {
+  text-align: center;
+}
+
+.avatar-email {
+  color: #666666;
+}
+
+div.view-profile,
+div.view-post {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+div.view-profile span,
+div.view-post span {
+  color: #828282;
+}
+
+span.porfile-stat,
+span.post-stat {
+  color: #0a66c2 !important;
+}
+
+div.recent-items {
+  margin-top: 10px;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+div.recent-items-title {
+  margin: 10px 0;
+}
+
+div.recent-items-title > div {
+  margin: 5px 0;
+}

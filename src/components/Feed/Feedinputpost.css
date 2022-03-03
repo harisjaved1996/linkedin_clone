@@ -1,0 +1,33 @@
+div.feed-post-container {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+div.feed-post-container form {
+  display: flex;
+}
+
+div.feed-post-container > form > input {
+  outline: none;
+  border: 1px solid #eee;
+  flex: 1;
+  padding: 15px 10px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+div.feed-post-container > form > input:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+div.feed-post-container > form > button {
+  display: none;
+}
+
+div.feed-items-container {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}

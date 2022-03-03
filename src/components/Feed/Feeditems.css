@@ -1,0 +1,18 @@
+div.feed-items-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  color: rgb(129, 122, 122);
+  padding: 10px 5px;
+}
+
+div.feed-items-data:hover {
+  background-color: #eee;
+}
+
+div.feed-items-data > svg {
+  color: rgb(121, 121, 231);
+}

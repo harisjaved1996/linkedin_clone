@@ -1,0 +1,57 @@
+.user-avatar > img {
+  width: 46px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+div.userPostInformationflex {
+  display: flex;
+  align-items: center;
+}
+
+div.userPostInformation {
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+p.user-name,
+p.user-description {
+  color: #707070;
+  font-size: 14px;
+}
+p.user-name {
+  font-weight: bold;
+}
+
+div.userBasicInformation {
+  margin-left: 10px;
+}
+
+div.postActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* margin: 10px 0; */
+}
+div.postActions > div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div.postActions > div span {
+  color: #746c6c;
+}
+
+div.postActions > div:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.user-message {
+  margin-top: 10px;
+}

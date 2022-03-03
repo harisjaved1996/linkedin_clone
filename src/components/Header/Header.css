@@ -1,0 +1,66 @@
+div.header-parent {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.header-container {
+  width: 90%;
+  padding: 10px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+div.header_left {
+  display: flex;
+}
+
+div.header_left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+div.searchbox {
+  background: red;
+  padding: 0 10px;
+  background-color: #eef3f8;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+div.header_left input {
+  outline: none;
+  border: none;
+  width: 224px;
+  background-color: #eef3f8;
+}
+
+div.header_right {
+  display: flex;
+  flex-direction: row;
+}
+
+div.navoption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #666666;
+}
+div.navoption:hover {
+  color: black;
+}
+
+img.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
